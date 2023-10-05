@@ -32,7 +32,11 @@ text-transform: uppercase;
 text-decoration: none;
 padding: 30px;
 }
-
+.menu__config__links:hover{
+    text-decoration: underline;
+    color: var(--border--card-one);
+    cursor: pointer;
+}
 body {
     background-color: var(--backgroud-fundo);
 }
@@ -146,9 +150,10 @@ body {
 
 .svg__bool__blue {
     position: absolute;
-    fill: #18B2DE;
+    fill: #00c8ff;
     filter: blur(100px);
-    margin-top: 30%;
+    overflow: hidden;
+    margin-top: 20%;
     margin-left: 80%;
 }
 
@@ -289,6 +294,13 @@ body {
     line-height: 36px;
     /* 150% */
     letter-spacing: -1px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.galery__verMais__galeria_google:hover{
+    text-decoration: underline;
+    color: var(--border--card-one);
+    cursor: pointer;
 }
 
 .galery__cards {
@@ -323,7 +335,15 @@ body {
     gap: 10%;
     margin-top: 10%;
 }
-
+.galery__cards__card:hover{
+    border: 2px solid var(--border--card-one);
+    cursor: pointer;
+}
+.galery__cards__card:hover .titulo__card{
+    color: var(--text-and-border);
+    font-size: 32px;
+    cursor: pointer;
+}
 .titulo__card {
     color: var(--option-title);
     font-family: Lufga;
@@ -332,7 +352,9 @@ body {
     font-weight: 600;
     line-height: normal;
 }
-
+.titulo__card:hover span{
+    color: var(--card-ultimo);
+}
 .card {
     display: flex;
     flex-direction: column;
@@ -376,7 +398,7 @@ body {
 .card__content {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 0px;
 }
 
 .card__links {
@@ -394,6 +416,10 @@ body {
     background: rgba(255, 255, 255, 0.09);
     box-shadow: -3.01333px 3.01333px 3.01333px 0px rgba(255, 255, 255, 0.39) inset, 2.01px -2.01px 20px 0px rgba(214, 214, 214, 0.17) inset;
     backdrop-filter: blur(37.21466827392578px);
+}
+.card__link:hover{
+    border-radius: 50px;
+    background: rgba(136, 246, 238, 0.463);
 }
 
 .svg__cards {
@@ -447,4 +473,7 @@ body {
     padding: 20px;
     background: var(--backgroud-button);
     text-decoration: none;
+}
+.memories__link:hover{
+    background: transparent;
 }
