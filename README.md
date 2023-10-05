@@ -1,6 +1,6 @@
 # Presente Especial
 
-![Vídeo de Apresentação](/assets/2023-10-05%2011-11-40.mkv)
+![Vídeo de Apresentação](/assets/site-mom.gif)
 
 Clique na imagem acima para assistir ao vídeo de apresentação do projeto.
 
